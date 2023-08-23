@@ -3,6 +3,7 @@
 META
 
 "prompts in English, formatted as instructions for a Large Language Model for **Code Review Best Practices** when reviewing a source code repository"
+"D'accord! Si l'objectif est que l'utilisateur copie le contenu des fichiers pour que le LLM les examine, voici des prompts revus pour guider cette interaction :"
 
 
 1. 🖥️ **Code Review Best Practices**
@@ -54,3 +55,42 @@ META
     - How can one start contributing to open-source projects?
     - Discuss the benefits of open-source software for businesses.
     - What are the ethical considerations when using or contributing to open-source software?
+   
+---
+
+1. 🧠 **Tech Stack Evaluation**:
+   - "Please copy and paste the contents of your technology stack configuration file, and I will assess its appropriateness for the project's requirements and objectives."
+
+2. 📦 **Dependencies**:
+   - "Copy and paste the content of your dependencies file (e.g., `package.json` for Node.js, `requirements.txt` for Python). I'll check for outdated or vulnerable dependencies."
+
+3. 🔍 **Middleware & Services**:
+   - "Paste the configurations or lists of middleware and services used in the application. I'll ensure they are appropriately licensed and maintained."
+
+4. 🔄 **Database Systems**:
+   - "Please provide the configuration or setup details for your database systems. I'll review them for optimization, backup, and recovery practices."
+
+5. 🚀 **Deployment Configuration**:
+   - "Copy and paste your deployment configurations and scripts. I'll review them for best practices concerning scalability, resilience, and disaster recovery."
+
+6. 🌐 **Web Servers & Frameworks**:
+   - "Paste the configurations or setup files for the web servers and frameworks you're using. I'll assess them for optimization in performance and security."
+
+7. 🛡️ **Security Layers**:
+   - "Please provide details or configuration snippets of the security layers or tools in use. I'll evaluate them for potential gaps or vulnerabilities."
+
+8. 🔗 **Integration & APIs**:
+   - "Copy and paste the configurations or details of third-party integrations and APIs in your software. I'll verify their security, support, and uptime considerations."
+
+9. 📈 **Monitoring & Logging**:
+   - "Paste the setup or configuration details for your monitoring and logging solutions. I'll ensure they are capturing relevant metrics and errors effectively."
+
+10. 🧪 **Testing Tools**:
+   - "Provide the configurations or lists of testing tools used in your project. I'll review them for comprehensiveness across unit, integration, and performance testing."
+
+11. 🌉 **Middleware Compatibility**:
+   - "Please paste details or configurations of the middleware components. I'll check for potential compatibility issues."
+
+12. 🔄 **CI/CD Pipelines**:
+   - "Copy and paste details or configurations related to your CI/CD setup. I'll review them for robustness, security, and efficiency."
+
