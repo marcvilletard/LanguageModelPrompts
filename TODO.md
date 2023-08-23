@@ -1,5 +1,10 @@
 **software engineers**
 
+META
+
+"prompts in English, formatted as instructions for a Large Language Model for **Code Review Best Practices** when reviewing a source code repository"
+
+
 1. 🖥️ **Code Review Best Practices**
     - What are the top five best practices to follow during a code review?
     - Describe the importance of constructive feedback in code reviews.
